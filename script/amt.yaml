@@ -1,0 +1,10 @@
+name: amt
+dependencies:
+  - python=2.7
+  - Jinja2=2.7.3
+  - MarkupSafe=0.23
+  - boto=2.42.0
+  - wsgiref=0.1.2
+  # For processing images
+  - pil=1.1.7
+  - numpy=1.15.4

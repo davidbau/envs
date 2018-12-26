@@ -1,0 +1,26 @@
+name: p3t1
+channels:
+  - pytorch
+dependencies:
+  - python=3.6
+  - cudatoolkit=9.0
+  - cudnn=7.1.2
+  - pytorch=1.0
+  - torchvision
+  - mkl-include
+  - numpy
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - graphviz
+  - numba
+  - jupyter
+  - pyyaml
+  - mkl
+  - setuptools
+  - cmake
+  - cffi
+  - ujson
+  - tqdm
+  - pip
+
