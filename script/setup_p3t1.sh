@@ -50,5 +50,13 @@ echo "export CUDA_HOME=/usr/local/cuda-9.0" > \
 
 source activate ${ENV_NAME}
 
-# Within the environment, run pip
+# Within the environment, run pip to get torch-scatter
 pip install --no-cache-dir torch-scatter
+
+# Within the environment, create sources for torchgeometry and install
+cd ~/.conda/envs/${ENV_NAME}
+mkdir -p source
+cd source
+clone --depth=1 https://github.com/arraiy/torchgeometry.git
+cd torchgeometry
+python setup.py install
