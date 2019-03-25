@@ -1,6 +1,8 @@
 name: p3t1
 channels:
   - pytorch
+  - ostrokach-forge
+  - conda-forge
 dependencies:
   - python=3.6
   - cudatoolkit=9.0
@@ -23,4 +25,6 @@ dependencies:
   - ujson
   - tqdm
   - pip
+  - cairo
+  - graph-tool
 
