@@ -1,0 +1,14 @@
+name: p3t0
+channels:
+  - pytorch
+  - ostrokach-forge
+  - conda-forge
+dependencies:
+  - python=3.6
+  - cudatoolkit=9.0
+  - cudnn=7.1.2
+  - mkl-include
+  - numpy
+  - scipy
+  - pip
+  - pyyaml

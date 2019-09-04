@@ -1,4 +1,4 @@
-name: p3t1
+name: p3t11
 channels:
   - pytorch
   - ostrokach-forge
@@ -7,7 +7,7 @@ dependencies:
   - python=3.6
   - cudatoolkit=9.0
   - cudnn=7.1.2
-  - pytorch=1.0
+  - pytorch=1.1
   - torchvision
   - mkl-include
   - numpy
@@ -21,6 +21,7 @@ dependencies:
   - jupyter
   - pyyaml
   - mkl
+  - connexion
   - setuptools
   - cmake
   - cffi
