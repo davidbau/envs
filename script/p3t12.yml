@@ -31,3 +31,4 @@ dependencies:
   - cairo
   - tensorboardX
   - graph-tool
+  - cython
