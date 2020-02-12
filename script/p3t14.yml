@@ -1,0 +1,42 @@
+name: p3t14
+channels:
+  - pytorch
+  - ostrokach-forge
+  - conda-forge
+dependencies:
+  - python=3.6
+  - cudatoolkit=10.1
+  - cudnn=7.6.0
+  - pytorch=1.4
+  - torchvision
+  - torchaudio
+  - munch
+  - mkl-include
+  - numpy
+  - scipy
+  - scikit-learn
+  - scikit-image
+  - matplotlib
+  - pandas
+  - graphviz
+  - numba
+  - jupyter
+  - pyyaml
+  - mkl
+  - connexion
+  - setuptools
+  - cmake
+  - cffi
+  - ujson
+  - tqdm
+  - pip
+  - cairo
+  - tensorboard
+  - tensorboardX
+  - graph-tool
+  - cython
+  - h5py
+  - visdom
+  - jsonpatch
+  - pip:
+    - webp
