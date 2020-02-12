@@ -32,3 +32,8 @@ dependencies:
   - tensorboardX
   - graph-tool
   - cython
+  - h5py
+  - visdom
+  - jsonpatch
+  - pip:
+    - webp
