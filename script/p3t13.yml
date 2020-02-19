@@ -9,6 +9,8 @@ dependencies:
   - cudnn=7.6.0
   - pytorch=1.3.1
   - torchvision
+  - torchaudio
+  - munch
   - mkl-include
   - numpy
   - scipy
@@ -19,6 +21,7 @@ dependencies:
   - graphviz
   - numba
   - jupyter
+  - jupyterlab
   - pyyaml
   - mkl
   - connexion
@@ -29,6 +32,7 @@ dependencies:
   - tqdm
   - pip
   - cairo
+  - tensorboard
   - tensorboardX
   - graph-tool
   - cython
