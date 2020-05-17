@@ -1,0 +1,43 @@
+name: p3t15
+channels:
+  - pytorch
+  - ostrokach-forge
+  - conda-forge
+dependencies:
+  - python=3.6
+  - cudatoolkit=10.1
+  - cudnn=7.6.0
+  # - pytorch=1.5 removed - we will build from source
+  # - torchvision - we will build from source
+  - torchaudio
+  - munch
+  - mkl-include
+  - numpy
+  - scipy
+  - scikit-learn
+  - scikit-image
+  - matplotlib
+  - pandas
+  - graphviz
+  - numba
+  - jupyter
+  - pyyaml
+  - opencv
+  - mkl
+  - connexion
+  - setuptools
+  - cmake
+  - cffi
+  - ujson
+  - tqdm
+  - pip
+  - cairo
+  - tensorboard
+  - tensorboardX
+  - graph-tool
+  - cython
+  - h5py
+  - visdom
+  - jsonpatch
+  - pip:
+    - webp
