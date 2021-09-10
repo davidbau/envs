@@ -1,0 +1,20 @@
+name: placesdemo
+channels:
+  - pytorch
+  - ostrokach-forge
+  - conda-forge
+dependencies:
+  - python=3.6
+  - pytorch=1.4
+  - torchvision
+  - py-opencv
+  - mkl-include
+  - numpy
+  - scipy
+  - scikit-learn
+  - scikit-image
+  - matplotlib
+  - pandas
+  - numba
+  - mkl
+  - h5py

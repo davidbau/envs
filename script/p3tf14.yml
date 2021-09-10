@@ -1,0 +1,38 @@
+name: p3tf14
+channels:
+  - pytorch
+  - anaconda
+  - conda-forge
+dependencies:
+  - python>=3.6
+  - cudatoolkit=10.1
+  - cudnn=7.6.5
+  - pytorch=1.5.1
+  - tensorflow-gpu=1.14.0
+  - tensorboard
+  - tensorboardX
+  - torchvision
+  - mkl-include
+  - numpy
+  - scipy
+  - moviepy
+  - lmdb
+  - h5py
+  - pillow
+  - py-opencv
+  - scikit-learn
+  - matplotlib
+  - graphviz
+  - numba
+  - jupyter
+  - pyyaml
+  - mkl
+  - requests
+  - six
+  - setuptools
+  - cmake
+  - cffi
+  - ujson
+  - tqdm
+  - pip
+

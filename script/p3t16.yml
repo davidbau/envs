@@ -1,4 +1,4 @@
-name: p3t15
+name: p3t16
 channels:
   - pytorch
   - ostrokach-forge
@@ -7,8 +7,8 @@ dependencies:
   - python=3.6
   - cudatoolkit=10.1
   - cudnn=7.6.0
-  # - pytorch=1.5 removed - we will build from source
-  # - torchvision - we will build from source
+  - pytorch=1.6
+  - torchvision
   - torchaudio
   - munch
   - mkl-include

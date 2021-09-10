@@ -1,0 +1,26 @@
+name: benv11
+channels:
+  - pytorch
+  - ostrokach-forge
+  - conda-forge
+dependencies:
+  - python=3.6
+  - cudatoolkit=11.1
+  - pytorch=1.8
+  - cudnn
+  - torchvision
+  - mkl-include
+  - numpy
+  - scipy
+  - scikit-learn
+  - scikit-image
+  - matplotlib
+  - seaborn
+  - numba
+  - opencv
+  - jupyter
+  - jupyterlab
+  - pyyaml
+  - mkl
+  - tqdm
+  - pip
